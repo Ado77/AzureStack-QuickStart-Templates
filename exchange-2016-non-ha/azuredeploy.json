@@ -26,7 +26,7 @@
         "publicIPAddressType": "Dynamic",
         "subnetPrefix": "10.0.0.0/24",
         "subnetName": "[tolower(concat('sn', resourceGroup().name))]",
-        "exchangeDomainName": "[tolower(concat(resourceGroup().name, '.com'))]",
+        "exchangeDomainName": "[tolower('bur.land'))]",
         "uniqueDnsNameForPublicIP": "[tolower(concat('dns', resourceGroup().name))]",
         "uniqueStorageAccountName": "[tolower(concat('sa', resourceGroup().name))]",
         "uniqueStorageAccountContainerName": "[tolower(concat('sc', resourceGroup().name))]",
